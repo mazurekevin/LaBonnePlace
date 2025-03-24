@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		385FCF06176AA8BA9B26FEA3 /* Pods_LaBonnePlaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8208B7247D7EBCE18CC8BA9 /* Pods_LaBonnePlaceTests.framework */; };
+		622AF1D928EC5BCCFD3E7D9F /* Pods_LaBonnePlace_LaBonnePlaceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0F26606A1894C659AD0B6 /* Pods_LaBonnePlace_LaBonnePlaceUITests.framework */; };
+		CDC5431DA7B367AEA63259C3 /* Pods_LaBonnePlace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3217B5DF37CF615CB2701EB1 /* Pods_LaBonnePlace.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		399B57EC2D67B58B00AE3BC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7CA798B95090127DADA46F /* Pods-LaBonnePlace-LaBonnePlaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlace-LaBonnePlaceUITests.debug.xcconfig"; path = "Target Support Files/Pods-LaBonnePlace-LaBonnePlaceUITests/Pods-LaBonnePlace-LaBonnePlaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3217B5DF37CF615CB2701EB1 /* Pods_LaBonnePlace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaBonnePlace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		399B57D62D67B58A00AE3BC5 /* LaBonnePlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaBonnePlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399B57EB2D67B58B00AE3BC5 /* LaBonnePlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaBonnePlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		399B57F52D67B58B00AE3BC5 /* LaBonnePlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaBonnePlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550A5CD1E00796168C1C997F /* Pods-LaBonnePlace-LaBonnePlaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlace-LaBonnePlaceUITests.release.xcconfig"; path = "Target Support Files/Pods-LaBonnePlace-LaBonnePlaceUITests/Pods-LaBonnePlace-LaBonnePlaceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71DA147C9D3197FC5291412A /* Pods-LaBonnePlaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlaceTests.release.xcconfig"; path = "Target Support Files/Pods-LaBonnePlaceTests/Pods-LaBonnePlaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DCF86348960EB7C19DE9E51 /* Pods-LaBonnePlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlace.release.xcconfig"; path = "Target Support Files/Pods-LaBonnePlace/Pods-LaBonnePlace.release.xcconfig"; sourceTree = "<group>"; };
+		A61B11EAE662EF971ED8A78B /* Pods-LaBonnePlaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlaceTests.debug.xcconfig"; path = "Target Support Files/Pods-LaBonnePlaceTests/Pods-LaBonnePlaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D9DFC8B65D0B04805D6B31 /* Pods-LaBonnePlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaBonnePlace.debug.xcconfig"; path = "Target Support Files/Pods-LaBonnePlace/Pods-LaBonnePlace.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C0F26606A1894C659AD0B6 /* Pods_LaBonnePlace_LaBonnePlaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaBonnePlace_LaBonnePlaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8208B7247D7EBCE18CC8BA9 /* Pods_LaBonnePlaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaBonnePlaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC5431DA7B367AEA63259C3 /* Pods_LaBonnePlace.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385FCF06176AA8BA9B26FEA3 /* Pods_LaBonnePlaceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622AF1D928EC5BCCFD3E7D9F /* Pods_LaBonnePlace_LaBonnePlaceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,8 @@
 				399B57EE2D67B58B00AE3BC5 /* LaBonnePlaceTests */,
 				399B57F82D67B58B00AE3BC5 /* LaBonnePlaceUITests */,
 				399B57D72D67B58A00AE3BC5 /* Products */,
+				737CC9979EEAC661CBD391B4 /* Pods */,
+				C516E29FA67232AE186AB33B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +112,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		737CC9979EEAC661CBD391B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9DFC8B65D0B04805D6B31 /* Pods-LaBonnePlace.debug.xcconfig */,
+				8DCF86348960EB7C19DE9E51 /* Pods-LaBonnePlace.release.xcconfig */,
+				2C7CA798B95090127DADA46F /* Pods-LaBonnePlace-LaBonnePlaceUITests.debug.xcconfig */,
+				550A5CD1E00796168C1C997F /* Pods-LaBonnePlace-LaBonnePlaceUITests.release.xcconfig */,
+				A61B11EAE662EF971ED8A78B /* Pods-LaBonnePlaceTests.debug.xcconfig */,
+				71DA147C9D3197FC5291412A /* Pods-LaBonnePlaceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C516E29FA67232AE186AB33B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3217B5DF37CF615CB2701EB1 /* Pods_LaBonnePlace.framework */,
+				D8C0F26606A1894C659AD0B6 /* Pods_LaBonnePlace_LaBonnePlaceUITests.framework */,
+				E8208B7247D7EBCE18CC8BA9 /* Pods_LaBonnePlaceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 399B57FF2D67B58B00AE3BC5 /* Build configuration list for PBXNativeTarget "LaBonnePlace" */;
 			buildPhases = (
+				59A5BAABC52C18FFF6985A45 /* [CP] Check Pods Manifest.lock */,
 				399B57D22D67B58A00AE3BC5 /* Sources */,
 				399B57D32D67B58A00AE3BC5 /* Frameworks */,
 				399B57D42D67B58A00AE3BC5 /* Resources */,
+				90D807BC778E18AFEAEA336A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				399B57D82D67B58A00AE3BC5 /* LaBonnePlace */,
 			);
 			name = LaBonnePlace;
-			packageProductDependencies = (
-			);
 			productName = LaBonnePlace;
 			productReference = 399B57D62D67B58A00AE3BC5 /* LaBonnePlace.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 399B58022D67B58B00AE3BC5 /* Build configuration list for PBXNativeTarget "LaBonnePlaceTests" */;
 			buildPhases = (
+				9FBC05533881FD8E228FBBDB /* [CP] Check Pods Manifest.lock */,
 				399B57E72D67B58B00AE3BC5 /* Sources */,
 				399B57E82D67B58B00AE3BC5 /* Frameworks */,
 				399B57E92D67B58B00AE3BC5 /* Resources */,
@@ -134,8 +178,6 @@
 				399B57EE2D67B58B00AE3BC5 /* LaBonnePlaceTests */,
 			);
 			name = LaBonnePlaceTests;
-			packageProductDependencies = (
-			);
 			productName = LaBonnePlaceTests;
 			productReference = 399B57EB2D67B58B00AE3BC5 /* LaBonnePlaceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 399B58052D67B58B00AE3BC5 /* Build configuration list for PBXNativeTarget "LaBonnePlaceUITests" */;
 			buildPhases = (
+				45171D23531F1AF77504601B /* [CP] Check Pods Manifest.lock */,
 				399B57F12D67B58B00AE3BC5 /* Sources */,
 				399B57F22D67B58B00AE3BC5 /* Frameworks */,
 				399B57F32D67B58B00AE3BC5 /* Resources */,
+				F254183B642C7644C923A47E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				399B57F82D67B58B00AE3BC5 /* LaBonnePlaceUITests */,
 			);
 			name = LaBonnePlaceUITests;
-			packageProductDependencies = (
-			);
 			productName = LaBonnePlaceUITests;
 			productReference = 399B57F52D67B58B00AE3BC5 /* LaBonnePlaceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +272,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45171D23531F1AF77504601B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaBonnePlace-LaBonnePlaceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A5BAABC52C18FFF6985A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaBonnePlace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D807BC778E18AFEAEA336A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace/Pods-LaBonnePlace-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace/Pods-LaBonnePlace-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace/Pods-LaBonnePlace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FBC05533881FD8E228FBBDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaBonnePlaceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F254183B642C7644C923A47E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace-LaBonnePlaceUITests/Pods-LaBonnePlace-LaBonnePlaceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace-LaBonnePlaceUITests/Pods-LaBonnePlace-LaBonnePlaceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaBonnePlace-LaBonnePlaceUITests/Pods-LaBonnePlace-LaBonnePlaceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		399B57D22D67B58A00AE3BC5 /* Sources */ = {
@@ -306,7 +451,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +514,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -390,6 +535,7 @@
 		};
 		399B58002D67B58B00AE3BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D9DFC8B65D0B04805D6B31 /* Pods-LaBonnePlace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -403,6 +549,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,6 +565,7 @@
 		};
 		399B58012D67B58B00AE3BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCF86348960EB7C19DE9E51 /* Pods-LaBonnePlace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,6 +579,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,6 +595,7 @@
 		};
 		399B58032D67B58B00AE3BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61B11EAE662EF971ED8A78B /* Pods-LaBonnePlaceTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +614,7 @@
 		};
 		399B58042D67B58B00AE3BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DA147C9D3197FC5291412A /* Pods-LaBonnePlaceTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +633,7 @@
 		};
 		399B58062D67B58B00AE3BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7CA798B95090127DADA46F /* Pods-LaBonnePlace-LaBonnePlaceUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +650,7 @@
 		};
 		399B58072D67B58B00AE3BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550A5CD1E00796168C1C997F /* Pods-LaBonnePlace-LaBonnePlaceUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

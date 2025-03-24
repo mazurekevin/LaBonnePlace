@@ -1,0 +1,6 @@
+framework module Pods_LaBonnePlace_LaBonnePlaceUITests {
+  umbrella header "Pods-LaBonnePlace-LaBonnePlaceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

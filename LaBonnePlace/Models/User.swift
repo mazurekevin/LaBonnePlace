@@ -19,7 +19,7 @@ struct User: Identifiable {
         id = json["id"].intValue
         firstname = json["firstname"].stringValue
         lastname = json["lastname"].stringValue
-        mail = json["mail"].intValue
+        mail = json["mail"].stringValue
         password = json["password"].stringValue
     }
 }
