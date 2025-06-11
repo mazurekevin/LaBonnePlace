@@ -11,45 +11,55 @@ import SwiftUI
 struct LoginView: View {
     @State private var identifiant: String = ""
     @State private var password: String = ""
+    @State private var isLoggedIn: Bool = false
+
     var body: some View {
-        VStack{
+        NavigationView {
+            if isLoggedIn {
+                MainTabView()
+            } else {
+                loginForm
+            }
+        }
+    }
+
+    private var loginForm: some View {
+        VStack {
             Spacer()
             Text("LaBonnePlace")
                 .font(.title)
                 .bold()
             Spacer()
-            VStack{
+            VStack {
                 Spacer()
                 TextField("Identifiant", text: $identifiant)
                     .padding()
-                    .frame(height: 50.0)
-                
-                    //.background(Color.blue)
-                    .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 2.0)))
+                    .frame(height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
                 Spacer()
                 SecureField("Mot de passe", text: $password)
                     .padding()
-                    .frame(height: 50.0)
-                    //.background(Color.blue)
-                    .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 2.0)))
-                    
+                    .frame(height: 50)
+                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
                 Spacer()
             }
             .padding(.horizontal)
-            .frame(height: 150.0)
-            //.background(Color.red)
-            
+            .frame(height: 150)
+
             Spacer()
-            Button("Valider", action: {
-                print("Test")
-            })
-            .frame(width: 100.0, height: 50.0)
-            .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 2.0)))
-            
+
+            Button("Valider") {
+                // Ici, ajoute ta future logique de login via AuthService
+                isLoggedIn = true
+            }
+            .frame(width: 100, height: 50)
+            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+
             Spacer()
         }
     }
 }
+
 
 #Preview {
     LoginView()
