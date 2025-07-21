@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftyJSON
-struct User: Identifiable {
+struct UserDTO: Identifiable {
     var id: Int
     var firstname: String
     var lastname: String

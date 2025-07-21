@@ -8,7 +8,7 @@
 import Foundation
 import SwiftyJSON
 
-struct Comment: Identifiable {
+struct CommentDTO: Identifiable {
     var id: Int64
     var content: String
     var userId: Int64

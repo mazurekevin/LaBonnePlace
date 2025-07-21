@@ -8,14 +8,14 @@
 import Foundation
 import SwiftyJSON
 
-struct Item: Identifiable {
+struct ItemDTO: Identifiable {
     var id: Int64
     var name: String
     var price: Float
     var place: String
     var idUser: Int
     var idCategory: Int
-    var comments: [Comment]
+    var comments: [CommentDTO]?
 
     init(json: JSON) {
         id = json["id"].int64Value
@@ -24,6 +24,15 @@ struct Item: Identifiable {
         place = json["place"].stringValue
         idUser = json["idUser"].intValue
         idCategory = json["idCategory"].intValue
-        comments = json["comments"].arrayValue.map { Comment(json: $0) }
+        comments = json["comments"].arrayValue.map { CommentDTO(json: $0) }
+    }
+    
+    init(id: Int64, name: String, price: Float, place: String, idUser: Int, idCategory: Int) {
+        self.id = id
+        self.name = name
+        self.price = price
+        self.place = place
+        self.idUser = idUser
+        self.idCategory = idCategory
     }
 }
