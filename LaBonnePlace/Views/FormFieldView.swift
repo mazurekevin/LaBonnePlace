@@ -13,12 +13,24 @@ struct FormFieldView: View {
     let label: String
     let placeholder: String
     @Binding var text: String
+    var secureField: Bool = false
 
     var body: some View {
-        HStack(spacing: 10) {
-            Text(label)
-            TextField(placeholder, text: $text)
+        
+        if secureField{
+            HStack(spacing: 10) {
+                Text(label)
+                SecureField(placeholder, text: $text)
+            }
+            .formFieldStyle()
+        }else{
+            HStack(spacing: 10) {
+                Text(label)
+                TextField(placeholder, text: $text)
+            }
+            .formFieldStyle()
         }
-        .formFieldStyle()
+        
+        
     }
 }

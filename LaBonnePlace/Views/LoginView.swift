@@ -53,14 +53,11 @@ struct LoginView: View {
             }
             .frame(width: 100, height: 50)
             .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
-            
-            Text("Créer un compte")
-            .onTapGesture {
-                Tapped()
+            NavigationLink(destination: RegisterView()){
+                Text("Créer un compte")
+                    .padding(.top, 12)
+                    .foregroundStyle(.blue)
             }
-            .padding(.top, 12)
-            .foregroundStyle(.blue)
-
             Spacer()
         }
     }
