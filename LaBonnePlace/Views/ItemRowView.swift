@@ -20,19 +20,25 @@ struct ItemRowView: View {
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(8)
 
-            VStack(alignment: .leading, spacing: 6) {
+            VStack(alignment: .leading, spacing: 15) {
                 Text(item.name)
                     .font(.headline)
-                Text(item.place)
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
-                Text("\(item.price, specifier: "%.2f") €")
-                    .font(.subheadline)
-                    .bold()
+                HStack{
+                    Text(item.place)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                    Spacer()
+                    Text("\(item.price, specifier: "%.2f") €")
+                        .font(.subheadline)
+                        .bold()
+                    
+                }
+                
             }
 
             Spacer()
         }
+        //.background(Color.blue)
         .padding(.vertical, 8)
     }
 }
