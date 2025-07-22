@@ -12,6 +12,10 @@ struct LoginView: View {
     @State private var identifiant: String = ""
     @State private var password: String = ""
     @State private var isLoggedIn: Bool = false
+    
+    func Tapped(){
+        print("tap")
+    }
 
     var body: some View {
         NavigationView {
@@ -33,14 +37,10 @@ struct LoginView: View {
             VStack {
                 Spacer()
                 TextField("Identifiant", text: $identifiant)
-                    .padding()
-                    .frame(height: 50)
-                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+                    .formFieldStyle()
                 Spacer()
                 SecureField("Mot de passe", text: $password)
-                    .padding()
-                    .frame(height: 50)
-                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+                    .formFieldStyle()
                 Spacer()
             }
             .padding(.horizontal)
@@ -49,11 +49,17 @@ struct LoginView: View {
             Spacer()
 
             Button("Valider") {
-                // Ici, ajoute ta future logique de login via AuthService
                 isLoggedIn = true
             }
             .frame(width: 100, height: 50)
             .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.black, lineWidth: 2))
+            
+            Text("Créer un compte")
+            .onTapGesture {
+                Tapped()
+            }
+            .padding(.top, 12)
+            .foregroundStyle(.blue)
 
             Spacer()
         }
