@@ -27,9 +27,14 @@ struct HomeView: View {
         NavigationView {
             
             List(items) { item in
-                ItemRowView(item: item)
-                    .listRowSeparator(.hidden)
-            }.listStyle(PlainListStyle())
+                NavigationLink(destination: ItemDetailView(item: item)) {
+                    ItemRowView(item: item)
+                }
+                .listRowSeparator(.hidden)
+                
+            }
+            .listStyle(PlainListStyle())
+            
                 
             .toolbar{
                 ToolbarItem(placement: .topBarLeading){
