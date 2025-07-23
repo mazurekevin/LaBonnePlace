@@ -21,6 +21,14 @@ struct SecondView: View {
                 FormFieldView(label: "Mail:", placeholder: "Email", text: $mail)
                 FormFieldView(label: "Mot de passe:", placeholder: "Password", text: $password)
                 
+                Button("Déconnexion") {
+                    
+                }
+                .frame(width: 130, height: 50)
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.red, lineWidth: 2))
+                .foregroundStyle(.red)
+                
+                
             }.padding()
             .toolbar{
                 ToolbarItem(placement: .topBarLeading){
